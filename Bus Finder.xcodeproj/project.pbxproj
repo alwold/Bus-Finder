@@ -14,6 +14,7 @@
 		887D15A71A33B2C3005836FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887D15A61A33B2C3005836FF /* Images.xcassets */; };
 		887D15AA1A33B2C3005836FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887D15A81A33B2C3005836FF /* LaunchScreen.xib */; };
 		887D15B61A33B2C4005836FF /* Bus_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887D15B51A33B2C4005836FF /* Bus_FinderTests.m */; };
+		887D15C01A33B4F0005836FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887D15BF1A33B4F0005836FF /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		887D15AF1A33B2C4005836FF /* Bus FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bus FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887D15B41A33B2C4005836FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887D15B51A33B2C4005836FF /* Bus_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bus_FinderTests.m; sourceTree = "<group>"; };
+		887D15BF1A33B4F0005836FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887D15C01A33B4F0005836FF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		887D158D1A33B2C3005836FF = {
 			isa = PBXGroup;
 			children = (
+				887D15BF1A33B4F0005836FF /* MapKit.framework */,
 				887D15981A33B2C3005836FF /* Bus Finder */,
 				887D15B21A33B2C4005836FF /* Bus FinderTests */,
 				887D15971A33B2C3005836FF /* Products */,
